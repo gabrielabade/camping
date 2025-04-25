@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (mapa) {
       // Aqui seria inserido o código do Google Maps
       // Como estamos criando um exemplo, vamos simular com uma imagem/iframe
-      mapa.innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d451432.3963283227!2d-50.06714167812496!3d-28.256893199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952366c3a51f01e5%3A0x5833d17dabb84677!2sSerra%20Catarinense%2C%20SC!5e0!3m2!1spt-BR!2sbr!4v1650299116252!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
+      mapa.innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d451432.3963283227!2d-50.06714167812496!3d-28.256893199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952366c3a51f01e5%3A0x5833d17dabb84677!2sSerra%20Catarinense%2C%20SC!5e0!3m2!1spt-BR!2sbr!4v1650299116252!5m2!1spt-BR!2sbr" width="100%" height="540px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
     }
   }
 
