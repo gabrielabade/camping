@@ -1,18 +1,18 @@
 /* ========== VARIÁVEIS E RESET ========== */
 :root {
-  /* Cores Principais - Paleta refinada */
-  --cor-primaria: #2a5a3b;
-  /* Verde escuro mais vibrante */
-  --cor-secundaria: #e9b44c;
-  /* Dourado mais vibrante */
-  --cor-terciaria: #1a2a36;
-  /* Azul escuro mais profundo */
+  /* Cores Principais - Paleta refinada inspirada na natureza */
+  --cor-primaria: #345c4a;
+  /* Verde floresta mais rico */
+  --cor-secundaria: #d4a24a;
+  /* Dourado terroso mais suave */
+  --cor-terciaria: #1c2b2d;
+  /* Azul-esverdeado escuro para fundos */
 
-  /* Tons de verde - Mais diversificados */
-  --verde-claro: #488a6c;
-  --verde-medio: #3c7052;
-  --verde-muito-claro: #e8f5ee;
-  --verde-hover: #1d4229;
+  /* Tons de verde - Mais orgânicos */
+  --verde-claro: #5c8b76;
+  --verde-medio: #3e6b58;
+  --verde-muito-claro: #f0f5f2;
+  --verde-hover: #284639;
 
   /* Tons neutros - Refinados */
   --branco: #ffffff;
@@ -23,8 +23,8 @@
   --preto: #1a1a1a;
 
   /* Fontes */
-  --fonte-principal: 'Montserrat', sans-serif;
-  --fonte-secundaria: 'Poppins', sans-serif;
+  --fonte-principal: 'Source Sans Pro', sans-serif;
+  --fonte-secundaria: 'Playfair Display', serif;
 
   /* Tamanhos de fonte */
   --font-size-xs: 0.75rem;
@@ -107,6 +107,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  
 }
 
 img {
@@ -1611,8 +1612,8 @@ header.scrolled {
 .diferencial-item h3 {
   color: var(--cor-primaria);
   margin-bottom: var(--espacamento-sm);
-    padding-bottom: 10px;
-  }
+  padding-bottom: 10px;
+}
 
 .acomodacao-info h3::after {
   content: '';
@@ -2717,4 +2718,5 @@ footer::before {
   margin-bottom: var(--espacamento-sm);
   position: relative;
   display: inline-block;
-  padding-bottom: 10px;}
+  padding-bottom: 10px;
+}
