@@ -107,13 +107,13 @@
 
 
   /* Tons de verde para backgrounds - do mais claro ao mais escuro */
-  --verde-bg-muito-claro: rgba(240, 245, 242, 0.7);
+  --verde-bg-muito-claro: rgba(240, 245, 242, 0.61);
   /* Quase branco com tom de verde */
-  --verde-bg-claro: rgba(227, 238, 232, 0.8);
+  --verde-bg-claro: rgba(227, 238, 232, 0.384);
   /* Verde muito suave */
-  --verde-bg-medio: rgba(210, 230, 220, 0.7);
+  --verde-bg-medio: rgba(210, 230, 220, 0.699);
   /* Verde suave */
-  --verde-bg-escuro: rgba(92, 139, 118, 0.1);
+  --verde-bg-escuro: rgba(92, 139, 118, 0.082);
   /* Verde mais presente mas ainda suave */
 }
 
@@ -435,10 +435,10 @@ section {
 
 .btn-reserva:hover,
 .btn-reserva:focus-visible {
-  background-color: var(--cor-primaria);
-  color: var(--cor-texto-claro);
+  background-color: var(--cor-fundo-principal);
+  color: var(--cor-texto-claro); 
   transform: translateY(-3px);
-  box-shadow: 0 6px 16px rgba(212, 162, 74, 0.4);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); /* Ajustado para melhor visibilidade */
 }
 
 /* Botão WhatsApp - contato */
