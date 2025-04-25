@@ -2729,6 +2729,8 @@ footer::before {
 
 .desenvolvido-por a {
   color: var(--cor-secundaria);
+  font-size: 16px;
+  font-weight: 600;
   position: relative;
   transition: all 0.3s ease;
 }
