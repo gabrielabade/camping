@@ -436,9 +436,10 @@ section {
 .btn-reserva:hover,
 .btn-reserva:focus-visible {
   background-color: var(--cor-fundo-principal);
-  color: var(--cor-texto-claro); 
+  color: var(--cor-texto-claro);
   transform: translateY(-3px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); /* Ajustado para melhor visibilidade */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  /* Ajustado para melhor visibilidade */
 }
 
 /* Botão WhatsApp - contato */
@@ -560,7 +561,7 @@ header.scrolled {
 }
 
 .logo {
-  max-width: 180px;
+  max-width: 250px;
   height: auto;
   transition: transform 0.3s ease;
 }
@@ -572,7 +573,7 @@ header.scrolled {
 
 .logo img {
   height: auto;
-  max-height: 50px;
+  max-height: 200px;
   width: auto;
 }
 
@@ -644,7 +645,7 @@ header.scrolled {
   display: block;
   height: 3px;
   width: 100%;
-  background-color: var(--cor-primaria);
+  background-color: #c8e0c9;
   border-radius: 3px;
   transition: var(--transicao-media);
   transform-origin: center;
@@ -2895,6 +2896,11 @@ footer::before {
 @media (max-width: 768px) {
   :root {
     --font-size-base: 0.9rem;
+  }
+
+  .logo img {
+    align-items: center;
+    margin-left: 2rem;
   }
 
   .hero-content {
