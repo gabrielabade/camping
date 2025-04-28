@@ -685,7 +685,7 @@ header.scrolled {
   position: relative;
   height: 100vh;
   min-height: 600px;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('../img/hero-bg.png') no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('../img/hero-bg.webp') no-repeat center center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2107,7 +2107,7 @@ header.scrolled {
 /* ========== SEÇÃO CONTATO/RESERVA - OTIMIZADA ========== */
 .contato {
   background-color: var(--cor-fundo-principal);
-  background-image: linear-gradient(to bottom, var(--verde-bg-muito-claro), var(--verde-bg-claro)), url('../img/bg-contato.png');
+  background-image: linear-gradient(to bottom, var(--verde-bg-muito-claro), var(--verde-bg-claro)), url('../img/bg-contato.webp');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

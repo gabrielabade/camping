@@ -10,7 +10,7 @@ Todas as imagens devem ser salvas na pasta `img/` na raiz do projeto.
 
 ## Formato e Otimização
 
-* Formatos recomendados: JPG para fotografias, PNG para logos e elementos com transparência, SVG para ícones simples
+* Formatos recomendados: JPG para fotografias, webp para logos e elementos com transparência, SVG para ícones simples
 * Otimize todas as imagens para web (compressão de qualidade entre 70-85%)
 * Dimensões recomendadas estão listadas para cada imagem
 * Use nomes de arquivos descritivos e em minúsculas, separados por hífen
@@ -21,13 +21,13 @@ Todas as imagens devem ser salvas na pasta `img/` na raiz do projeto.
 
 ### Logos e Favicons
 
-1. **logo.png**
+1. **logo.webp**
    * Dimensões: 180px × 60px
    * Descrição: Logo principal do Refúgio Natural em fundo transparente
    * Elementos: Deve conter o texto "Refúgio Natural" com um ícone de árvore ou montanha
    * Cores: Verde escuro (principal) e dourado (detalhes)
 
-2. **logo-footer.png**
+2. **logo-footer.webp**
    * Dimensões: 180px × 60px 
    * Descrição: Versão do logo para o rodapé, em fundo transparente
    * Elementos: Igual ao logo principal, mas com cores mais claras
