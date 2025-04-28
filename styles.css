@@ -2107,7 +2107,7 @@ header.scrolled {
 /* ========== SEÇÃO CONTATO/RESERVA - OTIMIZADA ========== */
 .contato {
   background-color: var(--cor-fundo-principal);
-  background-image: linear-gradient(to bottom, var(--verde-bg-muito-claro), var(--verde-bg-claro)), url('../img/bg-contato.webp');
+  background-image: linear-gradient(to bottom, var(--verde-bg-muito-claro), var(--verde-bg-claro)), url('./img/bg-contato.webp');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
